@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D34F45C26CD999C00F2704A /* TrainingPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D34F45B26CD999C00F2704A /* TrainingPlans.swift */; };
+		9D6B01E326641B7100C07CB5 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B01E226641B7100C07CB5 /* AppData.swift */; };
+		9D6B01E5266431B500C07CB5 /* TrainingPlanRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B01E4266431B500C07CB5 /* TrainingPlanRow.swift */; };
+		9D6B01E726653E9A00C07CB5 /* TrainingPlanInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B01E626653E9A00C07CB5 /* TrainingPlanInformation.swift */; };
+		9D80AAE82697C56200FFC53F /* TrainingPlanWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80AAE72697C56200FFC53F /* TrainingPlanWeekView.swift */; };
+		9DAEFB8126C99D7700010C0B /* AppInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAEFB8026C99D7700010C0B /* AppInformationView.swift */; };
+		9DBCE02626965175003C67A1 /* TrainingPlanDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBCE02526965175003C67A1 /* TrainingPlanDayView.swift */; };
+		9DDA7DA72656969900A54A3A /* SmartCoachApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DA62656969900A54A3A /* SmartCoachApp.swift */; };
+		9DDA7DAB265696A700A54A3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDA7DAA265696A700A54A3A /* Assets.xcassets */; };
+		9DDA7DAE265696A700A54A3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DDA7DAD265696A700A54A3A /* Preview Assets.xcassets */; };
+		9DDA7DB9265696A700A54A3A /* SmartCoachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DB8265696A700A54A3A /* SmartCoachTests.swift */; };
+		9DDA7DC4265696A800A54A3A /* SmartCoachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DC3265696A800A54A3A /* SmartCoachUITests.swift */; };
+		9DDA7DD42656973400A54A3A /* TrainingPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DD32656973400A54A3A /* TrainingPlan.swift */; };
+		9DDA7DD626569C4400A54A3A /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DD526569C4400A54A3A /* MainMenu.swift */; };
+		9DDA7DDA2656A05100A54A3A /* CreateTrainingPlanMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA7DD92656A05100A54A3A /* CreateTrainingPlanMenu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DDA7DB5265696A700A54A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDA7D9B2656969900A54A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DDA7DA22656969900A54A3A;
+			remoteInfo = SmartCoach;
+		};
+		9DDA7DC0265696A800A54A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DDA7D9B2656969900A54A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DDA7DA22656969900A54A3A;
+			remoteInfo = SmartCoach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9D34F45B26CD999C00F2704A /* TrainingPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlans.swift; sourceTree = "<group>"; };
+		9D6B01E226641B7100C07CB5 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		9D6B01E4266431B500C07CB5 /* TrainingPlanRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanRow.swift; sourceTree = "<group>"; };
+		9D6B01E626653E9A00C07CB5 /* TrainingPlanInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanInformation.swift; sourceTree = "<group>"; };
+		9D80AAE72697C56200FFC53F /* TrainingPlanWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanWeekView.swift; sourceTree = "<group>"; };
+		9DAEFB8026C99D7700010C0B /* AppInformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInformationView.swift; sourceTree = "<group>"; };
+		9DBCE02526965175003C67A1 /* TrainingPlanDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlanDayView.swift; sourceTree = "<group>"; };
+		9DDA7DA32656969900A54A3A /* SmartCoach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCoach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDA7DA62656969900A54A3A /* SmartCoachApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCoachApp.swift; sourceTree = "<group>"; };
+		9DDA7DAA265696A700A54A3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DDA7DAD265696A700A54A3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DDA7DAF265696A700A54A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DDA7DB4265696A700A54A3A /* SmartCoachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCoachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDA7DB8265696A700A54A3A /* SmartCoachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCoachTests.swift; sourceTree = "<group>"; };
+		9DDA7DBA265696A800A54A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DDA7DBF265696A800A54A3A /* SmartCoachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCoachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DDA7DC3265696A800A54A3A /* SmartCoachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCoachUITests.swift; sourceTree = "<group>"; };
+		9DDA7DC5265696A800A54A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DDA7DD32656973400A54A3A /* TrainingPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingPlan.swift; sourceTree = "<group>"; };
+		9DDA7DD526569C4400A54A3A /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		9DDA7DD92656A05100A54A3A /* CreateTrainingPlanMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTrainingPlanMenu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DDA7DA02656969900A54A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DB1265696A700A54A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DBC265696A800A54A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DBCE02726965182003C67A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCE02526965175003C67A1 /* TrainingPlanDayView.swift */,
+				9D6B01E626653E9A00C07CB5 /* TrainingPlanInformation.swift */,
+				9D6B01E4266431B500C07CB5 /* TrainingPlanRow.swift */,
+				9DDA7DA62656969900A54A3A /* SmartCoachApp.swift */,
+				9DDA7DD92656A05100A54A3A /* CreateTrainingPlanMenu.swift */,
+				9D80AAE72697C56200FFC53F /* TrainingPlanWeekView.swift */,
+				9DDA7DD526569C4400A54A3A /* MainMenu.swift */,
+				9DAEFB8026C99D7700010C0B /* AppInformationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DBCE028269651A1003C67A1 /* Back End */ = {
+			isa = PBXGroup;
+			children = (
+				9D6B01E226641B7100C07CB5 /* AppData.swift */,
+				9DDA7DD32656973400A54A3A /* TrainingPlan.swift */,
+				9D34F45B26CD999C00F2704A /* TrainingPlans.swift */,
+			);
+			path = "Back End";
+			sourceTree = "<group>";
+		};
+		9DDA7D9A2656969900A54A3A = {
+			isa = PBXGroup;
+			children = (
+				9DDA7DA52656969900A54A3A /* SmartCoach */,
+				9DDA7DB7265696A700A54A3A /* SmartCoachTests */,
+				9DDA7DC2265696A800A54A3A /* SmartCoachUITests */,
+				9DDA7DA42656969900A54A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DDA7DA42656969900A54A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DDA7DA32656969900A54A3A /* SmartCoach.app */,
+				9DDA7DB4265696A700A54A3A /* SmartCoachTests.xctest */,
+				9DDA7DBF265696A800A54A3A /* SmartCoachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DDA7DA52656969900A54A3A /* SmartCoach */ = {
+			isa = PBXGroup;
+			children = (
+				9DBCE028269651A1003C67A1 /* Back End */,
+				9DBCE02726965182003C67A1 /* Views */,
+				9DDA7DAA265696A700A54A3A /* Assets.xcassets */,
+				9DDA7DAF265696A700A54A3A /* Info.plist */,
+				9DDA7DAC265696A700A54A3A /* Preview Content */,
+			);
+			path = SmartCoach;
+			sourceTree = "<group>";
+		};
+		9DDA7DAC265696A700A54A3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DDA7DAD265696A700A54A3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DDA7DB7265696A700A54A3A /* SmartCoachTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DDA7DB8265696A700A54A3A /* SmartCoachTests.swift */,
+				9DDA7DBA265696A800A54A3A /* Info.plist */,
+			);
+			path = SmartCoachTests;
+			sourceTree = "<group>";
+		};
+		9DDA7DC2265696A800A54A3A /* SmartCoachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DDA7DC3265696A800A54A3A /* SmartCoachUITests.swift */,
+				9DDA7DC5265696A800A54A3A /* Info.plist */,
+			);
+			path = SmartCoachUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DDA7DA22656969900A54A3A /* SmartCoach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DDA7DC8265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoach" */;
+			buildPhases = (
+				9DDA7D9F2656969900A54A3A /* Sources */,
+				9DDA7DA02656969900A54A3A /* Frameworks */,
+				9DDA7DA12656969900A54A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCoach;
+			productName = SmartCoach;
+			productReference = 9DDA7DA32656969900A54A3A /* SmartCoach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DDA7DB3265696A700A54A3A /* SmartCoachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DDA7DCB265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoachTests" */;
+			buildPhases = (
+				9DDA7DB0265696A700A54A3A /* Sources */,
+				9DDA7DB1265696A700A54A3A /* Frameworks */,
+				9DDA7DB2265696A700A54A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DDA7DB6265696A700A54A3A /* PBXTargetDependency */,
+			);
+			name = SmartCoachTests;
+			productName = SmartCoachTests;
+			productReference = 9DDA7DB4265696A700A54A3A /* SmartCoachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DDA7DBE265696A800A54A3A /* SmartCoachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DDA7DCE265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoachUITests" */;
+			buildPhases = (
+				9DDA7DBB265696A800A54A3A /* Sources */,
+				9DDA7DBC265696A800A54A3A /* Frameworks */,
+				9DDA7DBD265696A800A54A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DDA7DC1265696A800A54A3A /* PBXTargetDependency */,
+			);
+			name = SmartCoachUITests;
+			productName = SmartCoachUITests;
+			productReference = 9DDA7DBF265696A800A54A3A /* SmartCoachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DDA7D9B2656969900A54A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9DDA7DA22656969900A54A3A = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					9DDA7DB3265696A700A54A3A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9DDA7DA22656969900A54A3A;
+					};
+					9DDA7DBE265696A800A54A3A = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 9DDA7DA22656969900A54A3A;
+					};
+				};
+			};
+			buildConfigurationList = 9DDA7D9E2656969900A54A3A /* Build configuration list for PBXProject "SmartCoach" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DDA7D9A2656969900A54A3A;
+			productRefGroup = 9DDA7DA42656969900A54A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DDA7DA22656969900A54A3A /* SmartCoach */,
+				9DDA7DB3265696A700A54A3A /* SmartCoachTests */,
+				9DDA7DBE265696A800A54A3A /* SmartCoachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DDA7DA12656969900A54A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDA7DAE265696A700A54A3A /* Preview Assets.xcassets in Resources */,
+				9DDA7DAB265696A700A54A3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DB2265696A700A54A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DBD265696A800A54A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DDA7D9F2656969900A54A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6B01E326641B7100C07CB5 /* AppData.swift in Sources */,
+				9D34F45C26CD999C00F2704A /* TrainingPlans.swift in Sources */,
+				9DDA7DA72656969900A54A3A /* SmartCoachApp.swift in Sources */,
+				9DBCE02626965175003C67A1 /* TrainingPlanDayView.swift in Sources */,
+				9DDA7DDA2656A05100A54A3A /* CreateTrainingPlanMenu.swift in Sources */,
+				9D80AAE82697C56200FFC53F /* TrainingPlanWeekView.swift in Sources */,
+				9DDA7DD42656973400A54A3A /* TrainingPlan.swift in Sources */,
+				9D6B01E726653E9A00C07CB5 /* TrainingPlanInformation.swift in Sources */,
+				9D6B01E5266431B500C07CB5 /* TrainingPlanRow.swift in Sources */,
+				9DDA7DD626569C4400A54A3A /* MainMenu.swift in Sources */,
+				9DAEFB8126C99D7700010C0B /* AppInformationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DB0265696A700A54A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDA7DB9265696A700A54A3A /* SmartCoachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DDA7DBB265696A800A54A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DDA7DC4265696A800A54A3A /* SmartCoachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DDA7DB6265696A700A54A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DDA7DA22656969900A54A3A /* SmartCoach */;
+			targetProxy = 9DDA7DB5265696A700A54A3A /* PBXContainerItemProxy */;
+		};
+		9DDA7DC1265696A800A54A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DDA7DA22656969900A54A3A /* SmartCoach */;
+			targetProxy = 9DDA7DC0265696A800A54A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9DDA7DC6265696A800A54A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DDA7DC7265696A800A54A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DDA7DC9265696A800A54A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCoach/Preview Content\"";
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartCoach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DDA7DCA265696A800A54A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCoach/Preview Content\"";
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartCoach/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DDA7DCC265696A800A54A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				INFOPLIST_FILE = SmartCoachTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCoach.app/SmartCoach";
+			};
+			name = Debug;
+		};
+		9DDA7DCD265696A800A54A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				INFOPLIST_FILE = SmartCoachTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCoach.app/SmartCoach";
+			};
+			name = Release;
+		};
+		9DDA7DCF265696A800A54A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				INFOPLIST_FILE = SmartCoachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCoach;
+			};
+			name = Debug;
+		};
+		9DDA7DD0265696A800A54A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JD2C35ANG9;
+				INFOPLIST_FILE = SmartCoachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = practice.SmartCoachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCoach;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DDA7D9E2656969900A54A3A /* Build configuration list for PBXProject "SmartCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA7DC6265696A800A54A3A /* Debug */,
+				9DDA7DC7265696A800A54A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDA7DC8265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA7DC9265696A800A54A3A /* Debug */,
+				9DDA7DCA265696A800A54A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDA7DCB265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA7DCC265696A800A54A3A /* Debug */,
+				9DDA7DCD265696A800A54A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DDA7DCE265696A800A54A3A /* Build configuration list for PBXNativeTarget "SmartCoachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DDA7DCF265696A800A54A3A /* Debug */,
+				9DDA7DD0265696A800A54A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DDA7D9B2656969900A54A3A /* Project object */;
+}

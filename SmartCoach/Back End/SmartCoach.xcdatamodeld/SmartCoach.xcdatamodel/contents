@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20G71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="TrainingPlan" representedClassName="TrainingPlan" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="raceDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="raceDistance" optional="YES" attributeType="Transformable"/>
+        <attribute name="raceName" optional="YES" attributeType="String"/>
+        <attribute name="recentRaceDistance" optional="YES" attributeType="Transformable"/>
+        <attribute name="startDate" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TrainingPlanDay" representedClassName="TrainingPlanDay" syncable="YES" codeGenerationType="class"/>
+    <entity name="TrainingPlanWeek" representedClassName="TrainingPlanWeek" syncable="YES" codeGenerationType="class"/>
+    <elements>
+        <element name="TrainingPlan" positionX="-63" positionY="-18" width="128" height="119"/>
+        <element name="TrainingPlanWeek" positionX="-63" positionY="27" width="128" height="29"/>
+        <element name="TrainingPlanDay" positionX="-54" positionY="36" width="128" height="29"/>
+    </elements>
+</model>
